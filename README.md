@@ -22,10 +22,11 @@ Demo Aplikasi terdapat pada link youtube dibawah :
 
 Hasil Demo :
 
-![ibham](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/5888b610-92ee-4378-8575-2d0b8b444472)
+sebelum dihapus background
+![ibham](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/d130dacd-ebbd-45e5-bb7c-4f5c6458cba9)
 
+setelah dihapus background
+![dihapus](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/6183f1fd-85c0-4a8a-858c-33f9f4ced27e)
 
-
-![Uploading dihapus.png…]()
 
 Pembuatan tugas akhir ini dibantu oleh beberapa konten dari kreator 'kelas terbuka" (youtube) saat belajar menampilkan aplikasi GUI dengan python.
