@@ -75,6 +75,7 @@ setelah dihapus background
 4. save audio dan pilih fodler untuk menyimpan, lalu tekan save.
 
 5. jika berhasil akan terlihat seperti gambar!
+
 [Screenshot (669)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/140ee71c-d326-4022-8261-08bc7db60316)
 
 
