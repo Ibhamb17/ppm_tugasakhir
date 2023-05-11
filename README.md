@@ -45,6 +45,13 @@ Tampilan awal :
 ![Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/9467baa4-6e24-41b9-bfdd-969568e0354b)
 
 
+# Demo Aplikasi Hapus Background
+Demo fitur hapus background :
+1. klik tombol hapus background, lalu pilih gambar mana yang akan dihapus backgroundnya, lalu tekan open
+![Screenshot (664)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/a72052c3-5e15-49e7-9664-8e82512b5a05)
+2. beri nama file dengan format namafile.png. lalu tekan tombol save.
+![Screenshot (665)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/ef7ee4ec-8187-4422-8cfe-e6aedc827ba6)
+
 Hasil Demo :
 
 sebelum dihapus background
