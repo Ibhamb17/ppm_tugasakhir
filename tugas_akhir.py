@@ -4,7 +4,6 @@ from PIL import Image
 from pydub import AudioSegment
 import os
 import easygui
-from moviepy.editor import *
 
 
 def hapus_bg():
