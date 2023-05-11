@@ -22,8 +22,10 @@ Demo Aplikasi terdapat pada link youtube dibawah :
 
 Hasil Demo :
 
+![ibham](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/5888b610-92ee-4378-8575-2d0b8b444472)
 
 
 
+![Uploading dihapus.png…]()
 
 Pembuatan tugas akhir ini dibantu oleh beberapa konten dari kreator 'kelas terbuka" (youtube) saat belajar menampilkan aplikasi GUI dengan python.
