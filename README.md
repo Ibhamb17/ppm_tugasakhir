@@ -61,7 +61,7 @@ setelah dihapus background
 ![dihapus](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/6183f1fd-85c0-4a8a-858c-33f9f4ced27e)
 
 
-#Demo Aplikasi Penggabungan Audio
+# Demo Aplikasi Penggabungan Audio
 1. Pilih menu gabungkan audio pada menu 
 
 ![Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/35cb586a-6d75-4ef5-a063-75d555fc8760)
@@ -79,7 +79,7 @@ setelah dihapus background
 
 
 
-#demo konversi format audio (mp3 to wav)
+# Demo konversi format audio (mp3 to wav)
 1. Tekan menu konversi audio!
 
 [Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/061504d4-39d8-4f0b-944a-6caf40dc9c4c)
