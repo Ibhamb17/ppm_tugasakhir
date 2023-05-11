@@ -20,6 +20,10 @@ lalu mmodul 'os digunakan agar fitur apliaksi program python yang saya buat bisa
 
 Demo Aplikasi terdapat pada link youtube dibawah :
 
+Tampilan awal :
+![Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/9467baa4-6e24-41b9-bfdd-969568e0354b)
+
+
 Hasil Demo :
 
 sebelum dihapus background
