@@ -61,4 +61,39 @@ setelah dihapus background
 ![dihapus](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/6183f1fd-85c0-4a8a-858c-33f9f4ced27e)
 
 
+#Demo Aplikasi Penggabungan Audio
+1. Pilih menu gabungkan audio pada menu 
+
+![Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/35cb586a-6d75-4ef5-a063-75d555fc8760)
+
+2. pilih audi pertama yang akan digabung
+![Screenshot (667)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/a133cdae-5831-4909-82ac-ac222e155e2e)
+
+3. pilih audio kedua yang akan digabung
+![Screenshot (668)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/9fb23874-4d75-44c8-a8c7-fb997a16350e)
+
+4. save audio dan pilih fodler untuk menyimpan, lalu tekan save.
+
+5. jika berhasil akan terlihat seperti gambar!
+[Screenshot (669)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/140ee71c-d326-4022-8261-08bc7db60316)
+
+
+
+#demo konversi format audio (mp3 to wav)
+1. Tekan menu konversi audio!
+
+[Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/061504d4-39d8-4f0b-944a-6caf40dc9c4c)
+
+2. pilih audio yang akan dikonversi formatnya.
+
+![Screenshot (672)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/9a9f6022-8a55-4d39-8b8b-b666c3b04b57)
+
+3. berinama file dengan eksistensi sesuai keinginan namafile.mp3/ogg/wav
+![Screenshot (674)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/7c4bb2a0-a4ee-4cd8-be88-080451c73b73)
+
+4. jika berhasil maka akan muncul pesan seperti pada gambar dibawah.
+
+![Screenshot (675)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/211493bd-0160-416d-90ce-aeebdd9ad8b4)
+
+
 Pembuatan tugas akhir ini dibantu oleh beberapa konten dari kreator 'kelas terbuka" (youtube) saat belajar menampilkan aplikasi GUI dengan python.
