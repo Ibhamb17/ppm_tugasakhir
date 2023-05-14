@@ -68,7 +68,19 @@ setelah dihapus background
 
 # No 2
 Cara kerja image processing pada aplikasi yang saya buat adalah sebagai berikut.
- algoritma edge base segmentasi, dimana pada Teknik ini mendeteksi tepi (tracking garis) dalam gambar dan kemudian mencari jalur tepi yang kontinu. Semua elemen yang berada di luar jalur tersebut dianggap sebagai latar belakang. setelah latar belakang teridentifikasi latar belakang tersebut didefinisikan sebagai objek yang dihapus. penghapusan objek tersebut menggunakan modul PIL yang berfungsi untuk memanipulasi gambar.
+Aplikasi ini menggunkan algoritma edge base segmentasi, dimana pada Teknik ini mendeteksi tepi (tracking garis) dalam gambar dan kemudian mencari jalur tepi yang kontinu. Semua elemen yang berada di luar jalur tersebut dianggap sebagai latar belakang. setelah latar belakang teridentifikasi latar belakang tersebut didefinisikan sebagai objek yang dihapus. penghapusan objek tersebut menggunakan modul PIL yang berfungsi untuk memanipulasi gambar.
+Deskripsi Algoritma:
+1. Pengguna menjalankan fungsi hapus_bg() dengan mengklik tombol atau memanggil fungsi secara manual.
+2. Program akan mencoba mengimpor modul rembg yang diperlukan untuk menghapus latar belakang gambar.
+3. Pengguna akan diminta untuk memilih gambar input menggunakan dialog file yang disediakan oleh easygui.fileopenbox().
+4. Pengguna akan diminta untuk memilih lokasi dan nama file untuk menyimpan gambar hasil penghapusan latar belakang menggunakan dialog file yang disediakan oleh easygui.filesavebox().
+6. Gambar input akan dibuka menggunakan PIL.Image.open() dan disimpan dalam variabel input.
+7. Proses penghapusan latar belakang akan dilakukan menggunakan fungsi remove() dari modul rembg, dengan parameter gambar input.
+8. Gambar hasil penghapusan latar belakang akan disimpan menggunakan output.save(outputPath), di mana output adalah hasil dari pemanggilan remove(), dan outputPath adalah lokasi 9. file yang dipilih oleh pengguna.
+10. Pesan berhasil akan ditampilkan menggunakan messagebox.showinfo() untuk memberi tahu pengguna bahwa latar belakang berhasil dihapus.
+11. Jika terjadi kesalahan selama proses, pesan error akan ditampilkan menggunakan messagebox.showerror() dengan pesan kesalahan yang spesifik.
+
+
 # No 3
 Aspek kecerdasan buatan pada aplikasi yang saya buat yaitu terdapat pada modul Rembg yang disediakan oleh pemrograman python itu sendiri dimana terdapat pengimplementasian teknik segmentasi alpha dengan deeplearning untuk mengidentifikasi objek manusia dan objek yang bukan manusia. Setelah identifikasi selesai lalu digunakan algoritma edge-based seggmentation seperti yang dipaparkan pada soal no 2.
 
@@ -116,10 +128,32 @@ Pada penggabungan audio disini saya menggunakan teknik siple addition atau penju
 
 - Konversi audio : 
 Pada konversi audio saya memngkonversikan dari mp3 ke wav dimana format wav itu menggunakan kompressi lossless sedangkan untuk mp3 menggunakan kompresi loosy. pada kompressi mp3 ke wav file yang dihasilkan ukurannya akan lebih besar sekitar 9 s.d 10 kali lipat. hal ini disebabkan karena berikut ini.
+- Format MP3 menggunakan kompresi data lossy, yang berarti beberapa informasi frekuensi audio yang dianggap tidak terdengar oleh telinga manusia dihapus atau dikompresi secara signifikan. Ini membantu mengurangi ukuran file MP3 secara drastis dibandingkan dengan format audio yang tidak dikompresi seperti WAV.
 
-1. Format MP3 menggunakan kompresi data lossy, yang berarti beberapa informasi frekuensi audio yang dianggap tidak terdengar oleh telinga manusia dihapus atau dikompresi secara signifikan. Ini membantu mengurangi ukuran file MP3 secara drastis dibandingkan dengan format audio yang tidak dikompresi seperti WAV.
+- Adapun format WAV merupakan format audio yang tidak dikompresi, yang berarti tidak ada informasi audio yang hilang saat menyimpan file. Setiap sampel audio dalam file WAV disimpan dengan presisi penuh, yang menghasilkan kualitas audio yang lebih baik tetapi juga menghasilkan ukuran file yang lebih besar dibandingkan dengan format yang dikompresi seperti MP3.
 
-2. Adapun format WAV merupakan format audio yang tidak dikompresi, yang berarti tidak ada informasi audio yang hilang saat menyimpan file. Setiap sampel audio dalam file WAV disimpan dengan presisi penuh, yang menghasilkan kualitas audio yang lebih baik tetapi juga menghasilkan ukuran file yang lebih besar dibandingkan dengan format yang dikompresi seperti MP3.
+Alur kerja :
+
+Deskripsi alur pemrosesan penggabungan audio :
+
+1. Pengguna menjalankan program dengan menjalankan fungsi gabung_audio(), yaitu saat tombol "Gabungkan Audio" ditekan.
+2. Program akan menampilkan dialog untuk memilih file audio pertama menggunakan filedialog.askopenfilename(). Jika pengguna tidak memilih file, program akan berhenti.
+3. Program akan menampilkan dialog untuk memilih file audio kedua menggunakan filedialog.askopenfilename(). Jika pengguna tidak memilih file, program akan berhenti.
+4. Audio pertama akan dimuat menggunakan AudioSegment.from_file() dan disimpan dalam variabel audio.
+5. Variabel combined_audio akan diinisialisasi dengan audio pertama.
+6. Program akan menampilkan dialog untuk memilih lokasi dan nama file untuk menyimpan audio gabungan menggunakan filedialog.asksaveasfilename(). Jika pengguna tidak memilih lokasi file, program akan berhenti.
+7. Audio gabungan akan diekspor ke file dengan format WAV menggunakan combined_audio.export().
+8. Pesan berhasil akan ditampilkan menggunakan messagebox.showinfo() untuk memberi tahu pengguna bahwa penggabungan audio berhasil.
+
+Deskripsi alur pemrosesan konversi audio :
+
+1. Pengguna menjalankan program dengan menjalankan fungsi konversi_audio(), yaitu saat tombol "Convert Audio" ditekan.
+2. Program akan menampilkan dialog untuk memilih file audio menggunakan filedialog.askopenfilename(). Jika pengguna tidak memilih file, program akan berhenti.
+3. Audio akan dimuat menggunakan AudioSegment.from_file() dan disimpan dalam variabel audio1.
+4. Variabel convertion_audio akan diinisialisasi dengan audio yang dimuat.
+5. Program akan menampilkan dialog untuk memilih lokasi dan nama file untuk menyimpan audio hasil konversi menggunakan filedialog.asksaveasfilename(). Jika pengguna tidak memilih lokasi file, program akan berhenti.
+6. Audio hasil konversi akan diekspor ke file dengan format WAV menggunakan convertion_audio.export().
+7. Pesan berhasil akan ditampilkan menggunakan messagebox.showinfo() untuk memberi tahu pengguna bahwa konversi audio berhasil.
 
 # No 6
 Aspek kecerdasan buatan pada aplikasi yang saya buat adalah dimana pada aplikasi ini digunakan fungsi AudioSegment yang diambil dari modul/library pydub dengan penjelasan sebagai berikut.
