@@ -76,7 +76,7 @@ Deskripsi Algoritma:
 4. Pengguna akan diminta untuk memilih lokasi dan nama file untuk menyimpan gambar hasil penghapusan latar belakang menggunakan dialog file yang disediakan oleh easygui.filesavebox().
 6. Gambar input akan dibuka menggunakan PIL.Image.open() dan disimpan dalam variabel input.
 7. Proses penghapusan latar belakang akan dilakukan menggunakan fungsi remove() dari modul rembg, dengan parameter gambar input.
-8. Gambar hasil penghapusan latar belakang akan disimpan menggunakan output.save(outputPath), di mana output adalah hasil dari pemanggilan remove(), dan outputPath adalah lokasi 9. file yang dipilih oleh pengguna.
+8. Gambar hasil penghapusan latar belakang akan disimpan menggunakan output.save(outputPath), di mana output adalah hasil dari pemanggilan remove(), dan outputPath adalah lokasi file yang dipilih oleh pengguna.
 10. Pesan berhasil akan ditampilkan menggunakan messagebox.showinfo() untuk memberi tahu pengguna bahwa latar belakang berhasil dihapus.
 11. Jika terjadi kesalahan selama proses, pesan error akan ditampilkan menggunakan messagebox.showerror() dengan pesan kesalahan yang spesifik.
 
@@ -157,7 +157,6 @@ Deskripsi alur pemrosesan konversi audio :
 
 # No 6
 Aspek kecerdasan buatan pada aplikasi yang saya buat adalah dimana pada aplikasi ini digunakan fungsi AudioSegment yang diambil dari modul/library pydub dengan penjelasan sebagai berikut.
- sebagai berikut.
 1. Pembacaan Format Audio: Fungsi AudioSegment.from_file dapat membaca berbagai format file audio seperti WAV, MP3, FLAC, dan banyak lagi. Aspek kecerdasan buatan digunakan untuk menganalisis dan mengenali format file audio yang diberikan, serta untuk memastikan bahwa data audio dapat diakses dan dimanipulasi dengan benar.
 
 2. Penggabungan dan Pemisahan Audio: AudioSegment menyediakan metode seperti + untuk menggabungkan dua file audio, serta metode  untuk memotong bagian tertentu dari file audio. Aspek kecerdasan buatan digunakan untuk memanipulasi data audio, menggabungkan sampel-sampel suara, atau memotong bagian-bagian tertentu dari file audio dengan presisi yang diperlukan.
