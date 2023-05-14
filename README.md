@@ -52,6 +52,8 @@ Tampilan awal :
 
 # No 1
 # Demo Aplikasi Hapus Background
+url youtube : https://youtu.be/3WtYrsZmI4Q 
+
 Demo fitur hapus background :
 1. klik tombol hapus background, lalu pilih gambar mana yang akan dihapus backgroundnya, lalu tekan open
 ![Screenshot (664)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/a72052c3-5e15-49e7-9664-8e82512b5a05)
@@ -85,8 +87,12 @@ Deskripsi Algoritma:
 Aspek kecerdasan buatan pada aplikasi yang saya buat yaitu terdapat pada modul Rembg yang disediakan oleh pemrograman python itu sendiri dimana terdapat pengimplementasian teknik segmentasi alpha dengan deeplearning untuk mengidentifikasi objek manusia dan objek yang bukan manusia. Setelah identifikasi selesai lalu digunakan algoritma edge-based seggmentation seperti yang dipaparkan pada soal no 2.
 
 # No 4
+url youtube : https://youtu.be/3WtYrsZmI4Q (menit ke 2:09)
 
 # Demo Aplikasi Penggabungan Audio
+
+url youtube : https://youtu.be/3WtYrsZmI4Q (menit ke 2:11)
+
 1. Pilih menu gabungkan audio pada menu 
 
 ![Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/35cb586a-6d75-4ef5-a063-75d555fc8760)
@@ -106,6 +112,9 @@ Aspek kecerdasan buatan pada aplikasi yang saya buat yaitu terdapat pada modul R
 
 
 # Demo konversi format audio (mp3 to wav)
+
+url youtube : https://youtu.be/3WtYrsZmI4Q (menit ke 3:56)
+
 1. Tekan menu konversi audio!
 
 [Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/061504d4-39d8-4f0b-944a-6caf40dc9c4c)
