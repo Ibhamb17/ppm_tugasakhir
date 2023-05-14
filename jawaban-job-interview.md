@@ -1,12 +1,17 @@
 
-# tugasakhir_psm
+# jawaban job interview
 
 
 Nama : Ibham Bathsyi Hizbullah
 NIM : 1207050143
 
-Pada tugas akhir ini saya membuat mini aplikasi dengan tampilan GUI sederhana menggunakan bahasa pemgrograman python.
 
+Pada tugas akhir ini saya membuat mini aplikasi dengan tampilan GUI sederhana menggunakan bahasa pemgrograman python.
+Pada tugas akhir yang saya buat yaitu memuat hapus background sebuha image. Penggunaan aplikasinya yaitu sebagai berikut
+
+1. User mengunggah image yang akan dihapus backgroundnya.
+2. User menekan tombol "delete bg".
+3. Setelah background dihapus, user bisa menekan tombol "unduh" untuk mengunduh gambar yang sudah dihapus backgroundnya.
 Aplikasi yang saya buat terdiri dari 3 fitur yaitu sebagai berikut.
 1. Hapus backgrounnd image menggunakan fungsi remove pada library rembg untuk menghapus background dan juga menggunakan library PIL untuk memanipulasi gambar sebelum dihapus backgroundnya.
 2. Gabung 2 Audio File.
@@ -40,11 +45,12 @@ Tampilan awal :
 
 Demo Aplikasi terdapat pada link youtube dibawah :
 
+
 hasil :
 Tampilan awal :
 ![Screenshot (663)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/9467baa4-6e24-41b9-bfdd-969568e0354b)
 
-
+# No 1
 # Demo Aplikasi Hapus Background
 Demo fitur hapus background :
 1. klik tombol hapus background, lalu pilih gambar mana yang akan dihapus backgroundnya, lalu tekan open
@@ -60,6 +66,13 @@ sebelum dihapus background
 setelah dihapus background
 ![dihapus](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/6183f1fd-85c0-4a8a-858c-33f9f4ced27e)
 
+# No 2
+Cara kerja image processing pada aplikasi yang saya buat adalah sebagai berikut.
+ algoritma edge base segmentasi, dimana pada Teknik ini mendeteksi tepi (tracking garis) dalam gambar dan kemudian mencari jalur tepi yang kontinu. Semua elemen yang berada di luar jalur tersebut dianggap sebagai latar belakang. setelah latar belakang teridentifikasi latar belakang tersebut didefinisikan sebagai objek yang dihapus. penghapusan objek tersebut menggunakan modul PIL yang berfungsi untuk memanipulasi gambar.
+# No 3
+Aspek kecerdasan buatan pada aplikasi yang saya buat yaitu terdapat pada modul Rembg yang disediakan oleh pemrograman python itu sendiri dimana terdapat pengimplementasian teknik segmentasi alpha dengan deeplearning untuk mengidentifikasi objek manusia dan objek yang bukan manusia. Setelah identifikasi selesai lalu digunakan algoritma edge-based seggmentation seperti yang dipaparkan pada soal no 2.
+
+# No 4
 
 # Demo Aplikasi Penggabungan Audio
 1. Pilih menu gabungkan audio pada menu 
@@ -96,5 +109,25 @@ setelah dihapus background
 
 ![Screenshot (675)](https://github.com/Ibhamb17/psm_tugasakhir/assets/78264829/211493bd-0160-416d-90ce-aeebdd9ad8b4)
 
+# No 5 
+Cara kerja audio Processing pada aplikasi yang saya buat adalah sebagai berikut
+- Penggabungan Audio :
+Pada penggabungan audio disini saya menggunakan teknik siple addition atau penjumlahan sederhana dimana saya mendefinisikan 2 audio kedalam variebel yang berbeda lalu membuat variebel dengan definisi audi_gabungan = audio1 + audio 2.
+
+- Konversi audio : 
+Pada konversi audio saya memngkonversikan dari mp3 ke wav dimana format wav itu menggunakan kompressi lossless sedangkan untuk mp3 menggunakan kompresi loosy. pada kompressi mp3 ke wav file yang dihasilkan ukurannya akan lebih besar sekitar 9 s.d 10 kali lipat. hal ini disebabkan karena berikut ini.
+
+1. Format MP3 menggunakan kompresi data lossy, yang berarti beberapa informasi frekuensi audio yang dianggap tidak terdengar oleh telinga manusia dihapus atau dikompresi secara signifikan. Ini membantu mengurangi ukuran file MP3 secara drastis dibandingkan dengan format audio yang tidak dikompresi seperti WAV.
+
+2. Adapun format WAV merupakan format audio yang tidak dikompresi, yang berarti tidak ada informasi audio yang hilang saat menyimpan file. Setiap sampel audio dalam file WAV disimpan dengan presisi penuh, yang menghasilkan kualitas audio yang lebih baik tetapi juga menghasilkan ukuran file yang lebih besar dibandingkan dengan format yang dikompresi seperti MP3.
+
+# No 6
+Aspek kecerdasan buatan pada aplikasi yang saya buat adalah dimana pada aplikasi ini digunakan fungsi AudioSegment yang diambil dari modul/library pydub dengan penjelasan sebagai berikut.
+ sebagai berikut.
+1. Pembacaan Format Audio: Fungsi AudioSegment.from_file dapat membaca berbagai format file audio seperti WAV, MP3, FLAC, dan banyak lagi. Aspek kecerdasan buatan digunakan untuk menganalisis dan mengenali format file audio yang diberikan, serta untuk memastikan bahwa data audio dapat diakses dan dimanipulasi dengan benar.
+
+2. Penggabungan dan Pemisahan Audio: AudioSegment menyediakan metode seperti + untuk menggabungkan dua file audio, serta metode  untuk memotong bagian tertentu dari file audio. Aspek kecerdasan buatan digunakan untuk memanipulasi data audio, menggabungkan sampel-sampel suara, atau memotong bagian-bagian tertentu dari file audio dengan presisi yang diperlukan.
+
+3. Konversi Format Audio: AudioSegment mendukung konversi format audio seperti MP3 ke WAV atau sebaliknya. Aspek kecerdasan buatan dapat digunakan untuk menganalisis dan memahami struktur data dalam format audio sumber dan format tujuan, serta melakukan konversi dengan benar.
 
 Pembuatan tugas akhir ini dibantu oleh beberapa konten dari kreator 'kelas terbuka" (youtube) saat belajar menampilkan aplikasi GUI dengan python.
